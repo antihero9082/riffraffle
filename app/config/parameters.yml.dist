@@ -1,0 +1,14 @@
+parameters:
+    riffraffle.mongodb.server: 'mongodb://localhost:27017'
+    riffraffle.mongodb.database: raffle
+
+    mongo.session.options:
+        database: '%riffraffle.mongodb.database%'
+        collection: session
+    mailer_transport:  smtp
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    locale:            en
+    secret:            ThisTokenIsNotSoSecretChangeIt
